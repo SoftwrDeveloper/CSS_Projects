@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>CSS Inclusion Application</title>
+    </head>
+    <body>
+        <h2 style="background-color:#c0c0c0; text-align: center;">The CSS Application Tutorial</h2>
+        <p style="background-color:#ffff99;">Welcome to Software Developer tube channel!</p>
+        <p style="background-color:#cccc99;">We look at the how CSS is used to style webpage.</p>
+    </body>
+</html>
+
+Background-image:
+
+ <div style="background-image:url(image/pic4.jpg);">
+        <h2>The CSS Application Tutorial</h2>
+        <p>Welcome to Software Developer tube channel!</p>
+        <p>We look at the how CSS is used to style webpage.</p>
+
+Background-repeat:
+
+<div style="background-image:url(image/pic4.jpg); background-repeat: repeat;">
+        <h2>The CSS Application Tutorial</h2>
+        <p>Welcome to Software Developer tube channel!</p>
+        <p>We look at the how CSS is used to style webpage.</p>
