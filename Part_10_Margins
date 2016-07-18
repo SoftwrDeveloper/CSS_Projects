@@ -1,0 +1,28 @@
+margin: 30px 20%
+
+1. margin-top: 30px
+2. margin-bottom: 30px
+3. margin-left: 30px
+4. margin-right: 30px
+
+Replace the margins in the below Web Page:
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>CSS Margins Styles Application</title>
+        <style>
+            h3.header { margin: 20px; border: 3px solid; }
+            div.section { margin: 30px; border: 3px solid; }
+        </style>
+    </head>
+    <body>
+        <h3 class="header">CSS Border Styles Application</h3>
+        <div class="section" >
+        <p>Hey YouTubers!</p>
+        <p>Welcome to Software Developer Tube Channel</p>
+        <p>I provide free Programming Tutorials</p>
+        </div>
+    </body>
+    </html>
