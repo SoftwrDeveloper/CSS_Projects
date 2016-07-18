@@ -1,0 +1,33 @@
+The main.css file:
+
+p.one {
+    outline-color: #c0c0c0;
+    outline-width: thick;
+    outline-style: double;
+    outline-offset: 1px;
+}
+p.two {
+    outline: thick solid #ff00ff;
+}
+p.three {
+    outline-color: #ff0000;
+    outline-width: thick;
+    outline-style: groove;
+}
+
+The web page with main.css file attached:
+
+ <!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>CSS Outline Application</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head
+    <body>
+        <h3>CSS Outline Application</h3>
+        <p class="one">Example 1: using outline property</p>
+        <p class="two">Example 2: using outline property</p>
+        <p class="three">Example 3: using outline property</p>
+    </body>
+</html>
