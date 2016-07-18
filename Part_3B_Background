@@ -1,0 +1,69 @@
+3. Background-repeat:
+
+ <style>
+            body { background-image:url(image/pic4.gif); background-repeat: repeat;}
+        </style>
+
+
+4. Background-position:
+
+ <style>
+            body { background-image:url(image/pic4.gif); background-position: 200px 200px;}
+        </style>
+
+5. Background-attachment:
+
+ <style>
+            body { background-image:url(image/pic4.gif); background-attachment:local; }
+        </style>
+
+6. Background:
+
+ <style>
+            body { background: #ffffff url(image/pic4.gif) repeat fixed; }
+        </style>
+
+Just change the style below:
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>CSS Background Application</title>
+        <style>
+            body { background-image:url(image/pic4.gif); background-repeat: repeat;}
+        </style>
+    </head>
+    <body>
+        <h2>The CSS Application Tutorial</h2>
+       
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p>
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p>
+       
+        <p>Welcome to Software Developer tube channel!</p>
+        <p>We look at the how CSS is used to style webpage.</p>
+       
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p>
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p>
+       
+        <h2>The CSS Application Tutorial</h2>
+        <p>Welcome to Software Developer tube channel!</p>
+        <p>We look at the how CSS is used to style webpage.</p>
+       
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p>
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p>
+       
+        <h2>The CSS Application Tutorial</h2>
+        <p>Welcome to Software Developer tube channel!</p>
+        <p>We look at the how CSS is used to style webpage.</p>
+       
+        <h2>The CSS Application Tutorial</h2>
+        <p>Welcome to Software Developer tube channel!</p>
+        <p>We look at the how CSS is used to style webpage.</p>
+       
+        <h2>The CSS Application Tutorial</h2>
+        <p>Welcome to Software Developer tube channel!</p>
+        <p>We look at the how CSS is used to style webpage.</p>
+       
+    </body>
+</html>
