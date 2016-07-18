@@ -1,0 +1,65 @@
+1. The border-collapse:
+
+            table { width: 300px; border-width: 2px solid; border-collapse: separate; }
+            tr, th, td { border-width:2px; border-style: solid; }
+     
+2. The border-spacing:
+
+            table { width: 300px; border-width: 2px solid; border-spacing: 2px; }
+            tr, th, td { border-width:2px; border-style: solid; }
+
+3. The caption-side:
+
+            <caption>This is CSS Tables Tutorial</caption>
+
+            table{ border-width: 2px solid; border-collapse: separate; width: 300px; }
+            tr, th, td{ border-width:2px; border-style: solid; }
+            caption{ caption-side: top; }
+
+4. The empty-cells:
+
+ <tr>
+                <td>    </td>
+                <td>    </td>
+                <td>    </td>   
+            </tr>
+
+          table { width: 300px; border-width: 2px solid; empty-cells: hide; }
+          tr, th, td { border-width:2px; border-style: solid; }
+
+Replace the table styles below:
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>CSS Table Styles Application</title>
+        table { width: 300px; border-width: 2px solid; border-collapse: separate; }
+            tr, th, td { border-width:2px; border-style: solid; }
+    </head>
+    <body>
+        <h3>CSS Table Styles Application</h3>
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Score</th>
+                <th>Winner</th>   
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>70%</td>
+                <td>James</td>   
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>56%</td>
+                <td>Yusuf</td>   
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>60%</td>
+                <td>Juliet</td>   
+            </tr>
+        </table>
+    </body>
+</html>
