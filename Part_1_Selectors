@@ -1,0 +1,50 @@
+1. The type selectors:
+
+ <style>
+            h2 { color: #c0c0c0; }
+            p { color: #ff00ff; }
+        </style>
+
+2. The universal selectors:
+
+ <style>
+            * { color: #c0c0c0; }
+        </style>
+
+3. The descendant selectors:
+ <style>
+ div p { color: #ff00ff; }
+ </style>
+
+4. The class selectors:
+ <style>
+            .section { color: #ff00ff; }
+        </style>
+
+5. The ID selectors:
+ <style>
+            #title { color: #ff00ff; }
+        </style>
+
+6.The Grouping Selectors: 
+ <style>
+            h2, p { color: #ff00ff; }
+        </style>
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>CSS Selectors Application</title>
+        <style>
+            h2, p { color: #ff00ff; }
+        </style>
+    </head>
+    <body>
+        <h2>The CSS Application Tutorial</h2>
+        <p>Welcome to Software Developer tube channel!</p>
+        <p>We look at the how CSS is used to style webpage.</p>
+        <p>Welcome to Software Developer tube channel!</p>
+        <p>We look at the how CSS is used to style webpage.</p>
+    </body>
+</html>
