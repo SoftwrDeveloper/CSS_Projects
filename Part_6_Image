@@ -1,0 +1,40 @@
+The border:
+
+ <style>
+            img { border: 40px solid green; }
+        </style>
+
+The width:
+
+ <style>
+            img { border: 20px solid green; width: 500px; }
+        </style>
+
+The height:
+
+ <style>
+            img { border: 20px dashed green; height: 300px; }
+        </style>
+
+The opacity:
+
+ <style>
+            img { border: 20px solid green; opacity: 0.2; filter: grayscale(opacity=50);}
+        </style>
+
+Replace the styles below:
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>CSS Background Application</title>
+        <style>
+            img { border: 40px solid green; }
+        </style>
+    </head>
+    <body>
+        <img src="image/pic4.gif" />
+        <h3>The image with border and some green dashes...</h3>
+    </body>
+</html>
