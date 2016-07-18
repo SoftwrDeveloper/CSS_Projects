@@ -1,0 +1,46 @@
+A. The border-color
+
+border-top-color
+border-bottom-color
+border-left-color
+border-right-color
+
+B. The border-style:
+
+none, solid, dotted, dashed, double, groove, ridge, inset, outset, hidden
+
+C. The border-width
+
+inherent, thin, thick, medium, can also select in pixels example border-width: 10px
+
+The code is below:
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>CSS Border Styles Application</title>
+        <style type="text/css">
+            h3.header { border: 3px solid; text-align: center; }
+            div.section {
+                border: 3px solid;
+                border-top-color: #ff00ff;
+                border-bottom-color: #990000;
+                border-left-color: #0000ff;
+                border-right-color: #229944;
+                border-style:groove;
+                border-width: 10px; 
+            }
+        
+        </style>
+    </head>
+    <body>
+        <h3 class="header">CSS Border Styles Application</h3>
+        <div class="section">
+        <p>Hey YouTubers!</p>
+        <p>Welcome to Software Developer Tube Channel</p>
+        <p>I provide free Programming Tutorials</p>
+        </div>
+    </body>
+
+</html>
