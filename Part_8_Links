@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>CSS Links Styles Application</title>
+        <style>
+            a:link { background-color: #669922; }
+            a:hover { color: #00ff00; }
+            a:active { background-color: #ff00ff; }
+            a:visited { background-color: #e60000; }
+        </style>
+    </head>
+    <body>
+        <h3></h3>
+        <a href="http://softwrdevelopment.com/">Software Developer Website</a>
+    </body>
+</html>
