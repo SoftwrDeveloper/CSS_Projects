@@ -1,0 +1,34 @@
+The main.css file, replace to the main web page one by one: 
+
+p.one {
+    position: absolute; left: 30px; top: 30px;
+    border: 4px solid #c0c0c0;
+    padding: 10px;
+}
+
+p.one {
+    position: relative; left: 30px; top: 30px;
+    border: 4px solid #c0c0c0;
+    padding: 10px;
+}
+
+p.one {
+    position: fixed; left: 30px; top: 30px;
+    border: 4px solid #c0c0c0;
+    padding: 10px;
+}
+
+The main web page, with main.css file attached:
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>CSS Positioning Application</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head
+    <body>
+        <h3>CSS Positioning Application</h3>
+        <p class="one">Hello YouTubers, welcome to software developer channel. Learn programming for free.</p>
+    </body>
+</html>
