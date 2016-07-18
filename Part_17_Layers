@@ -1,0 +1,44 @@
+The main.css file:
+
+
+.one {
+    position: absolute; width: 250px; height: 80px;
+    top: 10px; left: 80px;
+    background-color: #c0c0c0;
+}
+.two {
+   position: absolute; width: 250px; height: 80px;
+    top: 10px; left: 350px;
+    background-color: #ff00ff; 
+}
+.three {
+   position: fixed; width: 520px; height:200px;
+    top: 100px; left: 80px; z-index: -1;
+    background-color: #00ff00; 
+
+}
+
+The main web page with main.css attached:
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>CSS Positioning Application</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head
+    <body>
+       <div class="one">
+            <p>This is section one. The place for the website menu.</p>
+        </div>
+        <div class="two">
+            <p>This is section one. The place for the website introduction.</p>
+        </div>
+        <div class="three">
+            <p>This is section three. The place for the website contact</p>
+
+        </div>
+    </body>
+
+
+</html>
