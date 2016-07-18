@@ -1,0 +1,61 @@
+Text Color:
+
+            h2, p { color: #ff00ff; }
+
+Text Direction:
+
+            h2, p { direction: rtl; }
+
+Letter-spacing:
+
+            h2, p { letter-spacing: 5px; }
+
+text-transform:
+
+ h2, p { text-transform: uppercase; }
+
+White-span:
+
+ h2, p { white-space: pre-wrap; }
+
+Text-shadow:
+
+ h2, p { text-shadow: 2px 2px 4px yellow; }
+
+Word-spacing:
+
+            h2, p { word-spacing: 5px; }
+
+Text-indent:
+
+            h2, p { text-indent: 2cm; }
+
+Text-align:
+
+            h2, p { text-align: center; }
+
+Text-decoration:
+
+            h2, p { text-decoration: inherit; }
+
+Apply Texts in the below web page:
+     
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>CSS texts Application</title>
+        <style>
+            h2, p { text-decoration: line-through; }
+        </style>
+    </head>
+    <body>
+        <h2>The CSS Application Tutorial</h2>
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p>
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p> 
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p>
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p>
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p>
+        <p>Welcome to Software Developer tube channel, We look at the how CSS is used to style webpage.</p>
+    </body>
+</html>
