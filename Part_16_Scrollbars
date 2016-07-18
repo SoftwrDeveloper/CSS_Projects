@@ -1,0 +1,51 @@
+The four overflow main.css file:
+
+.one {
+    display: block; border: 3px solid #c0c0c0;
+    padding: 10px; margin-top: 10px;
+    width: 500px; height: 50px;
+    overflow: hidden;
+}
+
+.two {
+    display: block; border: 3px solid #00ff00;
+    padding: 10px; margin-top: 10px;
+    width: 500px; height: 50px;
+    overflow: visible;
+}
+
+.three {
+    display: block; border: 3px solid #ff00ff;
+    padding: 10px; margin-top: 10px;
+    width: 500px; height: 50px;
+    overflow: scroll;
+}
+
+.four {
+    display: block; border: 3px solid #0000ff;
+    padding: 10px; margin-top: 10px;
+    width: 500px; height: 50px;
+    overflow: auto;
+}
+
+Main web page with the main.css file attached:
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>CSS Positioning Application</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head
+    <body>
+        <h3>CSS Scrollbars Application</h3>
+        <p>The first example using hidden</p>
+        <div class="one">Hello youtubers, and welcome to sotware developer channel. You will learn free tutorials in computer programming. Seat back relax and enjoy the ride. Hello youtubers, and welcome to sotware developer channel. You will learn free tutorials in computer programming. Seat back relax and enjoy the ride.</div><br />
+        <p>The second example using visible</p>
+        <div class="two">Hello youtubers, and welcome to sotware developer channel. You will learn free tutorials in computer programming. Seat back relax and enjoy the ride. Hello youtubers, and welcome to sotware developer channel. You will learn free tutorials in computer programming. Seat back relax and enjoy the ride</div><br />
+        <p>The third example using scroll</p>
+        <div class="three">Hello youtubers, and welcome to sotware developer channel. You will learn free tutorials in computer programming. Seat back relax and enjoy the ride. Hello youtubers, and welcome to sotware developer channel. You will learn free tutorials in computer programming. Seat back relax and enjoy the ride</div><br />
+        <p>The fourth example using auto</p>
+        <div class="four">Hello youtubers, and welcome to sotware developer channel. You will learn free tutorials in computer programming. Seat back relax and enjoy the ride. Hello youtubers, and welcome to sotware developer channel. You will learn free tutorials in computer programming. Seat back relax and enjoy the ride</div><br />
+    </body>
+</html>
