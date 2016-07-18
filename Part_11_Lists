@@ -1,0 +1,50 @@
+The main.css file:
+
+ul.one {
+    list-style-type: circle;
+    list-style-position: outside;
+    list-style: inside square;
+}
+ol.two {
+    list-style-type: decimal;
+    list-style-position: inside;
+    list-style: inside circle;
+}
+ul.three {
+    list-style-type: square;
+    list-style-position: inside;
+    list-style: outside decimal;
+}
+
+The web page with the main.css linked:
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>CSS Lists Application</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head
+    <body>
+        <h3>CSS Lists Application</h3>
+        <ul class="one">
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>AngularJS</li>
+            <li>jQuery</li>
+        </ul>
+          <ol class="two">
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>AngularJS</li>
+            <li>jQuery</li>
+        </ol>
+        <ul class="three">
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>AngularJS</li>
+            <li>jQuery</li>
+        </ul>
+    </body>
+</html>
+   
