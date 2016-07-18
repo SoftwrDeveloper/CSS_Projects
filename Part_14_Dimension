@@ -1,0 +1,36 @@
+The main.css file: 
+
+p.one {
+   width: 500px; height: 60px;
+    border: 2px solid #c0c0c0;
+    margin: 15px; padding: 10px;
+}
+p.two {
+   min-width: 500px; max-height: 60px;
+    border: 2px solid #0000ff;
+    margin: 15px; padding: 10px; 
+}
+p.three {
+   width: 500px; height: 60px;
+    border: 2px solid #ff00ff;
+    margin: 15px; padding: 10px;
+    line-height: 25px;
+
+}
+
+The main web page with main.css file attached:
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>CSS Dimension Application</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head
+    <body>
+        <h3>CSS Dimension Application</h3>
+        <p class="one">Hello YouTubers, welcome to software developer channel. Learn programming for free.</p>
+        <p class="two">Hello YouTubers, welcome to software developer channel. Learn programming for free.</p>
+        <p class="three">Hello YouTubers, welcome to software developer channel. Learn programming for free.</p>
+    </body>
+</html>
